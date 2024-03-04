@@ -1,0 +1,506 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "itemList",
+  "itemListElement": [
+    {
+   "@type": "Nightclub",
+  "name": "BCM",
+  "description": "BCM, es un club exclusivo en el que dispondrás de todos los lujos para hacer de la noche, una noche para el recuerdo",
+  "image": ["https://uh.gsstatic.es/sfAttachPlugin/1881799.jpg",
+   "https://abcmallorcastorage.blob.core.windows.net/images/2020/04/bcm-mallorca-04.jpg",
+  "https://beatandmix.com/wp-content/uploads/2018/06/BCM-1.jpg"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Avinguda de l'Olivera, s/n",
+    "addressLocality": "Calvià",
+    "addressRegion": "Islas Baleares",
+    "postalCode": "07181",
+    "addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.50954003665472",
+      "longitude": "39.50954003665472"
+    },
+  "telephone": "687570130",
+  "url": "https://bcmmallorca.com/",
+  "sameAs": [
+      "https://www.instagram.com/bcmmallorca/",
+    "https://www.facebook.com/bcmplanetdance"
+    
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "22:00",
+      "closes": "06:00"
+    }
+  ],
+  "priceRange": ["Normal: 10€ a 30€",
+                  "VIP: 200€ a 500€",
+                  "Bebida en barra: 3€ a 10€" ,
+                  "Botellas: de 100€ a 1000€"],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  "event": [{
+      "@type": "Event",
+      "name": "DJSession djsnake",
+      "actor": "DJSNAKE",
+      "startDate": "2023-02-25 23:00",
+      "endDate": "2023-02-26T06:00",
+      "keywords": "https://open.spotify.com/embed?uri=spotify:artist:540vIaP2JwjQb9dm3aArA4"
+  },{
+    "@type": "Event",
+      "name": "elite urbanclub, lírico en la casa",
+      "actor": "LÍRICO EN LA CASA",
+      "startDate": "2023-06-02 23:00",
+      "endDate": "2023-06-03T06:00",
+      "keywords": "https://open.spotify.com/embed?uri=spotify:artist:1Vr7DTbtTpOp4tn4hAGOYo"
+  },{
+    "@type": "Event",
+      "name": "OPENING PARTY 2023",
+      "actor": "Witty Martin, Pako Bautista, Sp1der, Tides",
+      "startDate": "2023-06-03 23:00",
+      "endDate": "2023-06-04T06:00",
+      "image": "data:image/jpeg;base64,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"
+  }],
+  "subjectOf": {
+    "@type": "creativeWork",
+    "video": "RIqZoz7hKCo" ,
+    "audio": []
+  },
+  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.2467971129126!2d2.5317924153685194!3d39.50891922948091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129789e0452d3359%3A0xa6a645bf6bfa29d0!2sBCM%20Mallorca!5e0!3m2!1ses!2ses!4v1680246546728!5m2!1ses!2ses" 
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:6I1g9oqBtCBWb1dQeAQyv0"
+    },
+  {
+   "@type": "Nightclub",
+  "name": "Social Club",
+  "description": "El principal lugar de ocio nocturno de Palma úbicado en el corazón del famoso Paseo Marítimo de Mallorca, Social es un elegante boutique club que ofrece energía,actitud y cultura.",
+  "image": ["https://imgproxy.ra.co/_/quality:66/w:1500/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL2NsdWJzL2xnL3NvY2lhbC1jbHViLW1hbGxvcmNhLmpwZWc_ZGF0ZVVwZGF0ZWQ9MTY2NTQ4MTIwMjM4MA==",
+"https://media.timeout.com/images/103595764/image.jpg"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. de Gabriel Roca, 33",
+    "addressLocality": "Palma",
+    "addressRegion": "Islas Baleares",
+    "postalCode": "07014",
+    "addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.563462156967276",
+      "longitude": "2.6270994213000254"
+    },
+  "telephone": "683 61 96 30",
+  "url": "https://wearesocial.club/es",
+  "sameAs": [
+    "https://www.instagram.com/socialclubmallorca/",
+    "https://www.facebook.com/socialclubmallorca/"
+    
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "22:00",
+      "closes": "06:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek":"Thursday"
+      ,
+      "opens": "00:00",
+      "closes": "06:00"
+    }
+  ],
+  "priceRange": ["Normal: 10€ a 15€",
+                  "VIP: 300€ a 350€",
+                  "Bebida en barra: 3€ a 10€" ,
+                  "Botellas: A partir de 300 €"],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  "event": {
+      "@type": "Event",
+      "name": "Mamba Urbana",
+      "actor": "Sergi Ales y Simonet",
+      "startDate": "2023-05-18 23:00",
+      "endDate": "2023-05-19 05:00",
+      "image": "https://images.xceed.me/events/banners/mamba-urbana-at-social-club-59-palma-de-mallorca-xceed-6ebc.png"
+  },
+  "subjectOf": {
+    "@type": "creativeWork",
+    "video": "dmU58QSrklE" ,
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.865474368043!2d2.624679675719961!3d39.562640771589656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792688a1b5dd5%3A0xb56ee6879f8646aa!2sSocial%20Club!5e0!3m2!1sen!2ses!4v1684071437455!5m2!1sen!2ses" 
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:5seMwUQkWljqf4ifbbpoux"
+    },
+
+    {
+        "@type": "Nightclub",
+       "name": "S'inèdit Disco",
+       "description": "Discoteca en Campos",
+       "image": ["https://lh5.googleusercontent.com/p/AF1QipNd-5EyxmLrgT0Ed_G55fsr69fxmf2R_IvTJwUS",
+       "https://pbs.twimg.com/media/FRa7mUsXwAAwVXn.jpg"],
+       "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "Carrer de la Rambla, 64",
+         "addressLocality": "Campos",
+         "addressRegion": "Islas Baleares",
+         "postalCode": "07630",
+         "addressCountry": "ES"
+       },
+       "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.434275368570766",
+      "longitude": "3.0222714675920073"
+    },
+       "telephone": "",
+       "url": "",
+       "sameAs": ["https://www.instagram.com/sinedit_disco/"
+       ],
+       "openingHoursSpecification": [
+         {
+           "@type": "OpeningHoursSpecification",
+           "dayOfWeek": [
+             "Friday",
+             "Saturday"
+           ],
+           "opens": "23:30",
+           "closes": "04:30"
+         }
+       ],
+       "priceRange": ["Normal: 10€ a 15€",
+                       "Bebida en barra: 3€ a 10€" ],
+       "paymentAccepted": "Tarjeta de crédito y efectivo",
+       "event": {
+           "@type": "Event",
+           "name": "Música de sempre 80-90-2000",
+           "actor": "DJ Leo, DJ Master, Polichy",
+           "startDate": "2023-03-11 17:00",
+           "endDate": "2023-03-12 04:30",
+           "sameAs": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/CpUtRRoD6BE/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/CpUtRRoD6BE/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"></div></div></a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https://www.instagram.com/p/CpUtRRoD6BE/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by S’INÈDIT DISCO (@sinedit_disco)</a></p></div></blockquote> <script async src=\"//www.instagram.com/embed.js\"></script>"
+       },
+       "subjectOf": {
+         "@type": "creativeWork",
+         "video": "FqKMaNVUt8A/" ,
+         "audio": []
+       },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385.1947521818252!2d3.0221065131993385!3d39.43411793360349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297ade3816b836b%3A0x8dfa8b5db2fcad38!2sCarrer%20de%20la%20Rambla%2C%2064%2C%2007630%20Campos%2C%20Illes%20Balears!5e0!3m2!1sen!2ses!4v1685541323375!5m2!1sen!2ses" ,
+       "keywords": "https://open.spotify.com/embed?uri=spotify:playlist:37i9dQZF1DWWU6Rfto8Ppm"
+
+         },
+
+         {
+          "@type": "Nightclub",
+         "name": "Banana Club",
+         "description": "La música que suena pertenece a diferentes estilos que van desde el reggaeton latino hasta la electrónica",
+         "image": ["https://www.bananaclub.es/wp-content/uploads/2019/03/41894071_10156556741399763_5015319932439625728_o.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/04/85/40/banana-club.jpg?w=1200&h=-1&s=1"],
+         "address": {
+           "@type": "PostalAddress",
+           "streetAddress": "Avenida Tucán, 1, 2º",
+           "addressLocality": "Alcudia",
+           "addressRegion": "Islas Baleares",
+           "postalCode": "07400",
+           "addressCountry": "ES"
+         },
+         "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.839604380284726",
+      "longitude": "3.120341096448138"
+    },
+         "telephone": "971891023",
+         "url": "https://www.bananaclub.es/",
+         "sameAs": ["https://www.instagram.com/bananaclubmallorca/"
+         ],
+         "openingHoursSpecification": [
+           {
+             "@type": "OpeningHoursSpecification",
+             "dayOfWeek": [
+               "Sunday",
+               "Saturday"
+             ],
+             "opens": "00:00",
+             "closes": "05:00"
+           }
+         ],
+         "priceRange": ["Normal: 10€ a 15€",
+                         "Bebida en barra: 3€ a 10€" ],
+         "paymentAccepted": "Tarjeta de crédito y efectivo",
+         "event": {
+             "@type": "Event",
+             "name": "El que pegó el dembow",
+             "actor": "El Alfa El Jefe",
+             "startDate": "2023-09-11 17:00",
+             "endDate": "2023-09-12 04:30",
+             "keywords": "https://open.spotify.com/embed?uri=spotify:playlist:7EsigPvnwEmbJvfYoHeCr7"
+         },
+         "subjectOf": {
+           "@type": "creativeWork",
+       
+           "video": "Nd-KnuSUzSI",
+           "audio": []
+         },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.5514866413864!2d3.117766175734531!3d39.839472571538224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12962c9451a1120f%3A0x9139c4dd41582214!2sBanana%20Club!5e0!3m2!1sen!2ses!4v1684071547864!5m2!1sen!2ses",
+          "keywords": "https://open.spotify.com/embed?uri=spotify:playlist:6I1g9oqBtCBWb1dQeAQyv0"
+
+           },
+ {
+   "@type": "Nightclub",
+  "name": "Backstage",
+  "description": "Backstage, situado en pleno Paseo Marítimo, donde podrás escuchar de cerca y en directo los mejores grupos de música de la península y de las islas.",
+  "image": ["https://www.bookstyle.net/sites/default/files/2019-01/90026701.jpg",
+"https://magprod2-1a27b.kxcdn.com/wp-content/uploads/2023/03/@backstage_gpo_Instagram2-1024x683.jpg"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de Porto Pi, 4",
+    "addressLocality": "Palma",
+    "addressRegion": "Islas Baleares",
+    "postalCode": "07014",
+    "addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.55527591295431",
+      "longitude": "2.623446993204202"
+    },
+  "telephone": "971 70 78 21",
+  "url": "https://backstage.palmaocio.com/",
+  "sameAs": [
+    "https://www.instagram.com/backstage_gpo/?hl=es",
+    "https://twitter.com/BackstagePalma",
+    "https://www.facebook.com/bckstgpalma/"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+	"Friday",
+        "Saturday"	
+      ],
+      "opens": "00:00",
+      "closes": "06:00"
+    }
+  ],
+  "priceRange": ["Normal: 10€ a 20€",
+                  "VIP: 120€ a 150€",
+                  "Bebida en barra: 3€ a 10€" ,
+                  "Botellas: 100€ a 150€"],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  "event": {
+      "@type": "Event",
+      "name": "Sabados de Tardeo",
+      "actor": "DJ Xavi Pico",
+      "startDate": "2023-03-25 19:00",
+      "endDate": "2023-03-26 03:00",
+      "image": "https://www.granadamarcha.com/wp-content/uploads/2022/11/IMG_1244-576x1024.png"
+  },
+  "subjectOf": {
+    "@type": "creativeWork",
+    "video": "cebO4ztI9p4" ,
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.2155757064534!2d2.621032475719544!3d39.55474647159123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979209534644fd%3A0x334d5aae33e93e21!2sBackstage!5e0!3m2!1sen!2ses!4v1684071639227!5m2!1sen!2ses" 
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:3eHv4bG0XjvT5ksQ4ul0mv"
+    },
+ {
+   "@type": "Nightclub",
+  	"name": "R33 Mallorca",
+  	"description": "Noche de música electrónica de calidad en una de las mejores ubicaciones de Palma. Gran sonido, gran programación de artistas, gran ambiente en el corazón de la ciudad.",
+  	"image": ["https://images.xceed.me/clubs/gallery/r33-mallorca-club-palma-de-mallorca-xceed-17.jpg",
+    "https://www.buscafiesta.es/assets/2019/08/R33-Club-Mallorca-imagen-descripcion-en-listado-Buscafiesta..jpg.webp"],
+  	"address": {
+    		"@type": "PostalAddress",
+    		"streetAddress": "Carrer Poima, 24",
+   	 "addressLocality": "Palma",
+    	"addressRegion": "Islas Baleares",
+    	"postalCode": "07011",
+    	"addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.597039976415",
+      "longitude": "2.6311775197217"
+    },
+  	"telephone": "",
+  	"url": "https://xceed.me/es/palma-de-mallorca/club/r33-mallorca",
+  	"sameAs": [
+    		"https://www.instagram.com/r33mallorca/?hl=es",
+    		"https://www.facebook.com/R33Mallorca"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+	"Friday",
+        "Saturday"	
+      ],
+      "opens": "00:00",
+      "closes": "06:00"
+    }
+  ],
+  "priceRange": ["Normal: 15€ a 25€",
+                  "VIP: 200€",
+                  "Bebida en barra: 3€ a 10€" ,
+                  "Botellas: 100€ a 300€"],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  "event": {
+      "@type": "Event",
+      "name": "R33 Mallorca presents",
+      "actor": "wAFF",
+      "startDate": "2023-03-31 23:45",
+      "endDate": "2023-04-1 06:00"
+      ,"keywords": "https://open.spotify.com/embed?uri=spotify:artist:4OHSon9N7JAfxkjlH8nKDb"
+  },
+  "subjectOf": {
+    "@type": "creativeWork",
+
+    "video": "wfzalHj4png" ,
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.3436386523585!2d2.628817175721743!3d39.59694077158317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297926872e272ab%3A0x800bc003fdd5563b!2sR33%20Mallorca!5e0!3m2!1sen!2ses!4v1684071695889!5m2!1sen!2ses" 
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:09tdi9JkYgC7DP0XYBl4Az"
+    },
+{
+   "@type": "Nightclub",
+  	"name": "Times Square Music Club",
+  	"description": "Local RnB and Hip-Hop en el centro de Mallorca . Abierto todos los días. Cada día una fiesta diferente: RnB, Hip-Hop, Dancehall. Ven a disfrutar de la noche con nosotros",
+  	"image": ["https://lh3.googleusercontent.com/p/AF1QipPi-zOPZAo9ib-qEAJv8XUnFZJcWtpfN0Ckj_S2=w1080-h608-p-no-v0",
+    "https://10619-2.s.cdn12.com/rests/original/108_502065759.jpg",
+    "https://10619-2.s.cdn12.com/rests/original/108_502065752.jpg"],
+  	"address": {
+    		"@type": "PostalAddress",
+    		"streetAddress": "Av. de Gabriel Roca, 29, Local 1",
+   	 "addressLocality": "Palma",
+    	"addressRegion": "Islas Baleares",
+    	"postalCode": "07014",
+    	"addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.56503098342975",
+      "longitude": "2.6277396609293575"
+    },
+  	"telephone": "631104940",
+  	"url": "https://times-square-music-club-international-vibes.negocio.site/",
+  	"sameAs": [
+    		"https://www.instagram.com/times.square.mallorca/?hl=es",
+    		"https://www.facebook.com/timesquaremallorca/?locale=es_ES"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["All Week"
+      ],
+      "opens": "22:00",
+      "closes": "05:00"
+    }
+  ],
+  "priceRange": ["Entrada: Gratuita",
+                  "Bebida: 3€ a 15€" ],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  
+  "subjectOf": {
+    "@type": "creativeWork",
+
+    
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.769728827533!2d2.625207675720111!3d39.564799471589296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297938ba45f1565%3A0x81469ba21d0ceacd!2sTimes%20Square%20Music%20Club!5e0!3m2!1sen!2ses!4v1684071740231!5m2!1sen!2ses"
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:5NrkYlAhREd3pReOBoiVnX"
+    }, 
+{
+   "@type": "Nightclub",
+  	"name": "Sa Lluna",
+  	"description": "Des de 1997 programació setmanal amb sessions d'Indie-pop, Electro-Pop, tant de DJ's residents com convidats, concerts en directe i bon ambient",
+  	"image": ["https://4.bp.blogspot.com/-HjdBNOusCTs/WQg7x7N_dhI/AAAAAAAAYxE/oYE1FmxRt_sak6neiPLM-V58jbdSfE8nQCLcB/s1600/sa%2Blluna%2Binca%2B2.jpg",
+    "https://4.bp.blogspot.com/-zaRfoMQYWdQ/WQg7x9nxNaI/AAAAAAAAYxI/6K6wa530LsMFNeuVvJ83rFJiOORlMyiAQCLcB/s1600/sa%2Blluna%2Binca%2B1.jpg"],
+  	"address": {
+    		"@type": "PostalAddress",
+    		"streetAddress": "Carrer des Born, 14",
+   	 "addressLocality": "Inca",
+    	"addressRegion": "Islas Baleares",
+    	"postalCode": "07300",
+    	"addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.72948657922998",
+      "longitude": "2.9082367223302614"
+    },
+  	"telephone": "",
+  	"url": "",
+  	"sameAs": [
+    		"https://www.instagram.com/sallunainca/?hl=es"
+
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Friday",
+      "Saturday"
+      ],
+      "opens": "22:00",
+      "closes": "04:00"
+    }
+  ],
+  "priceRange": ["Entrada: Gratuita",
+                  "Bebida: 3€ a 9€" ],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  
+  "subjectOf": {
+    "@type": "creativeWork",
+
+    "video": "nof01wex0mE",
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.859809440283!2d2.9084754757282467!3d39.720333171560036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5b8ef02383d%3A0x534e1c66bd815342!2sPub%20Sa%20Lluna!5e0!3m2!1sen!2ses!4v1684071786478!5m2!1sen!2ses" 
+  ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:2pC3fKamz1wx8Qkj4982yb"
+    },
+{
+   "@type": "Nightclub",
+  	"name": "PaLante Music Club",
+  	"description": "Discoteca latina, somos el mejor ambiente",
+  	"image": ["https://ldpfeeddata.blob.core.windows.net/fos/Processed/microsoft.cc1a9cc2-d861-4804-9180-67b0aa2a98ca.jpg?sv=2019-10-10&si=readonly&sr=c&sig=OsMh5aDfkoauiVvQMIjj7pqzx872ugXbsN7ACxhwIm8=",
+    "https://live.staticflickr.com/8665/16038863296_ecb56b9182.jpg"],
+  	"address": {
+    		"@type": "PostalAddress",
+    		"streetAddress": "Gremi Hortelan, 13",
+   	 "addressLocality": "Palma",
+    	"addressRegion": "Islas Baleares",
+    	"postalCode": "07009",
+    	"addressCountry": "ES"
+  },
+  "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "39.600749971100456",
+      "longitude": "2.6553744829432038"
+    },
+  	"telephone": "600 32 23 46",
+  	"url": "",
+  	"sameAs": [
+    		"https://www.instagram.com/palantediscoteca/"
+
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Friday",
+      "Sunday"
+      ],
+      "opens": "23:00",
+      "closes": "06:00"
+    }
+  ],
+  "priceRange": ["Entrada: Gratuita",
+                  "Bebida: 3€ a 9€" ],
+  "paymentAccepted": "Tarjeta de crédito y efectivo",
+  
+  "subjectOf": {
+    "@type": "creativeWork",
+    "video": "nof01wex0mE",
+    "audio": []
+  },  "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.5450618798319!2d2.654666469620135!3d39.60062189822393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792e099514e19%3A0x3b12f2b39f37d30e!2sCarrer%20Gremi%20d&#39;Hortelans%2C%2013%2C%2007009%20Palma%2C%20Islas%20Baleares!5e0!3m2!1sen!2ses!4v1685602621944!5m2!1sen!2ses"
+    ,"keywords": "https://open.spotify.com/embed?uri=spotify:playlist:1rT5H6GruWZv8wWK7C3gzv"
+    }  
+ ]
+}
